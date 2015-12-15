@@ -38,20 +38,20 @@ def main():
     
     p = [0, 0, 0, 0] # Always defect
     q = [1, 0, 1, 0] # Tit-for-Tat
-    #r = [1, 1, 1, 1] # Always cooperate
+    r = [1, 1, 1, 1] # Always cooperate
     
-    initial_p = 0.99
-    initial_q = 0.01
-   # initial_r = 0.98
+    initial_p = 0.33
+    initial_q = 0.33
+    initial_r = 0.33
     
-    number_of_trials = 200
+    number_of_trials = 400
 
 
 
     # Here, we organize the inputs into a ``players'' vector and an ``initial populations''
     # vector. Be sure to add any extra players here if you want to simulate more than 3 players.
-    players = [p, q]
-    initial_populations = [initial_p, initial_q]
+    players = [p, q, r]
+    initial_populations = [initial_p, initial_q, initial_r]
     
     # Define an error, and apply it to the strategies. This really only works for strategies
     # containing 0's and 1's, otherwise you might have to calculate the error by hand

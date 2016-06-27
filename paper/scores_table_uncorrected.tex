@@ -1,0 +1,42 @@
+\begin{table}[h]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{c r| c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\\
+& \multicolumn{1}{ c }{} & \multicolumn{16}{c}{\textbf{Player 2 Strategy}} \\
+& \multicolumn{1}{ c }{} &
+\rot{(0, 0, 0, 0)}&
+\rot{(0, 0, 0, 1)} &
+\rot{(0, 0, 1, 0)} &
+\rot{(0, 0, 1, 1)} &
+\rot{(0, 1, 0, 0)} &
+\rot{(0, 1, 0, 1)} &
+\rot{(0, 1, 1, 0)} &
+\rot{(0, 1, 1, 1)} &
+\rot{(1, 0, 0, 0)} &
+\rot{(1, 0, 0, 1)} &
+\rot{(1, 0, 1, 0)} &
+\rot{(1, 0, 1, 1)} &
+\rot{(1, 1, 0, 0)} &
+\rot{(1, 1, 0, 1)} &
+\rot{(1, 1, 1, 0)} &
+\rot{(1, 1, 1, 1)} \\ \cline{3-18}
+\multirow{16}{*}{ \begin{sideways}\textbf{Player 1 Strategy}\end{sideways}} &(0, 0, 0, 0) &  1 & 3 & 1 & 3 & \bs & 5 & \bs & 5 & 1 & 3 & 1 & 3 & \bs & 5 & \bs & 5 \\ \cline{3-18}
+&(0, 0, 0, 1) & \(1/2\) & 2 & 2 & 2 & \bs & \bs & 5 & \bs & \(1/2\) & 3 & 2 & 3 & \bs & 5 & 5 & 5 \\ \cline{3-18}
+&(0, 0, 1, 0) & 1 & 2 & \bs & \(5/2\) & 1 & 3 & 1 & 3 & 1 & 2 & \bs & \(5/2\) & \bs & 4 & \bs & 4 \\ \cline{3-18}
+&(0, 0, 1, 1) & \(1/2\) & 2 & \(5/2\) & \bs & \(1/2\) & 2 & \(9/4\) & 2 & \(1/2\) & \(9/4\) & \(5/2\) & \(5/2\) & \bs & 4 & 4 & 4 \\ \cline{3-18}
+&(0, 1, 0, 0) & \bs & \bs & 1 & 3 & \bs & \bs & \bs & 5 & \bs & \bs & 1 & 3 & \bs & \bs & \bs & 5 \\ \cline{3-18}
+&(0, 1, 0, 1) & 0 & \bs & \(4/3\) & 2 & \bs & \bs & \bs & \bs & 0 & \bs & \(9/4\) & 3 & \bs & \bs & 5 & 5 \\ \cline{3-18}
+&(0, 1, 1, 0) & \bs & 0 & 1 & \(9/4\) & \bs & \bs & 1 & 3 & \bs & 0 & \bs & \(8/3\) & \bs & \bs & \bs & 4 \\ \cline{3-18}
+&(0, 1, 1, 1) & 0 & \bs & \(4/3\) & 2 & 0 & \bs & \(4/3\) & 2 & 0 & 0 & \(8/3\) & \(8/3\) & \bs & \bs & 4 & 4 \\ \cline{3-18}
+&(1, 0, 0, 0) & 1 & 3 & 1 & 3 & \bs & 5 & \bs & 5 & \bs & \bs & \bs & \bs & \bs & \bs & \bs & \bs \\ \cline{3-18}
+&(1, 0, 0, 1) & \(1/2\) & \(4/3\) & 2 & \(9/4\) & \bs & \bs & 5 & 5 & \bs & 3 & \bs & 3 & \bs & \bs & \bs & \bs \\ \cline{3-18}
+&(1, 0, 1, 0) & 1 & 2 & \bs & \(5/2\) & 1 & \(9/4\) & \bs & \(8/3\) & \bs & \bs & \bs & \bs & \bs & 3 & \bs & 3 \\ \cline{3-18}
+&(1, 0, 1, 1) & \(1/2\) & \(4/3\) & \(5/2\) & \(5/2\) & \(1/2\) & \(4/3\) & \(8/3\) & \(8/3\) & \bs & 3 & \bs & \bs & \bs & 3 & 3 & 3 \\ \cline{3-18}
+&(1, 1, 0, 0) & \bs & \bs & \bs & \bs & \bs & \bs & \bs & \bs & \bs & \bs & \bs & \bs & \bs & \bs & \bs & \bs \\ \cline{3-18}
+&(1, 1, 0, 1) & 0 & 0 & \(3/2\) & \(3/2\) & \bs & \bs & \bs & \bs & \bs & \bs & 3 & 3 & \bs & \bs & \bs & \bs \\ \cline{3-18}
+&(1, 1, 1, 0) & \bs & 0 & \bs & \(3/2\) & \bs & 0 & \bs & \(3/2\) & \bs & \bs & \bs & 3 & \bs & \bs & \bs & 3 \\ \cline{3-18}
+&(1, 1, 1, 1) & 0 & 0 & \(3/2\) & \(3/2\) & 0 & 0 & \(3/2\) & \(3/2\) & \bs & \bs & 3 & 3 & \bs & \bs & 3 & 3 \\ \cline{3-18}
+\end{tabular}%
+} \caption{Expected scores for Player 1 calculated directly using the matrix method}\label{tab:scores_table_uncorrected}
+\end{table}
